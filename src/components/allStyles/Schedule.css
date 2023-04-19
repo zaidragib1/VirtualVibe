@@ -1,0 +1,36 @@
+.dummy{
+    height: 150px;
+    width: 500px;
+}
+
+.mainScheduler{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* .innerSchedular{
+    height: 40rem;
+    width: 80rem;
+    border-radius: 1%;
+    border: solid black;
+} */
+.clockSet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .clockSet input[type="datetime-local"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
