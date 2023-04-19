@@ -23,7 +23,7 @@ const Signup = ({ setLoginUser}) => {
     }
 
     const signup = () => {
-        axios.post("http://10.0.9.195:9002/signup", user)
+        axios.post("https://try-4c2q.onrender.com/signup", user)
         .then(res => {
             alert(res.data.message)
             setLoginUser(res.data.user)
