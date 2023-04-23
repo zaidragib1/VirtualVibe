@@ -76,34 +76,34 @@ function Home (){
                         <div className="one">
                             <img src={screenSharing} className='screenSharing' id='nacho' />
                             <h1>Screen Sharing</h1>
-                            <p>Share your screen, application window, present your documents, slides and more.</p>
+                            <p className = 'textChange'>Share your screen, application window, present your documents, slides and more.</p>
                         </div>
                         <div className="two">
                             <img src={videoStreaming} className='videoStreaming' id='nacho' />
                             <h1>WebCam Streaming</h1>
-                            <p>Having the webcam on, allows participants to make a deeper connection with you. Up to 4k resolution.</p>
+                            <p className = 'textChange'>Having the webcam on, allows participants to make a deeper connection with you. Up to 4k resolution.</p>
                         </div>
                         <div className="three">
                             <img src={voiceStreaming} className='voiceStreaming' id='nacho' />
                             <h1>Audio Streaming</h1>
-                            <p>Echo cancellation and noise suppression that make your audio crystal clear.</p>
+                            <p className = 'textChange'>Echo cancellation and noise suppression that make your audio crystal clear.</p>
                         </div>
                     </div>
                     <div className="layer2">
                         <div className="one">
                             <img src={chat} className='chat' id='nacho' />
                             <h1 id="chate">Chat</h1>
-                            <p>Chat with others in meeting with integrated emoji picker to show your feeling.</p>
+                            <p className = 'textChange'>Chat with others in meeting with integrated emoji picker to show your feeling.</p>
                         </div>
                         <div className="two">
                             <img src={recording} className='recording' id='nacho' />
                             <h1>Recording meeting</h1>
-                            <p>Record your Screen, Video, and Audio on Your browser Blob. Save it for using it in the future or to share with others.</p>
+                            <p className = 'textChange'>Record your Screen, Video, and Audio on Your browser Blob. Save it for using it in the future or to share with others.</p>
                         </div>
                         <div className="three">
                             <img src={whiteboard} className='whiteboard' id='nacho' />
                             <h1>Whiteboard</h1>
-                            <p>Advanced interactive whiteboard to draw and explain your concepts to the other participants in the meeting.</p>
+                            <p className = 'textChange'>Advanced interactive whiteboard to draw and explain your concepts to the other participants in the meeting.</p>
                         </div>
                     </div>
                 </div>

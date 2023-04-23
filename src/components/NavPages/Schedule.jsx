@@ -14,11 +14,13 @@ function Schedule (){
                         <input type="email" name="" id="" />
                         <label htmlFor="email">Subject</label>
                         <input type="text" name="" id="" />
+                        <div className="clockSet">
+                            <input type="datetime-local" name="" id="" max={`${(new Date(Date.now() + 2 * 24 * 60 * 60 * 1000)).toISOString().slice(0, -8)}`} />
+                        </div>
+                        
                     </form>
                 </div>
-                <div className="clockSet">
-                    <input type="datetime-local" name="" id="" max={`${(new Date(Date.now() + 2 * 24 * 60 * 60 * 1000)).toISOString().slice(0, -8)}`} />
-                </div>
+                
             </div>
             <Footer />
         </>
