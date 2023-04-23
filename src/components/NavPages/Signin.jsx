@@ -6,6 +6,9 @@ import { useNavigate } from "react-router-dom"
 
 window.myVariable = 0;
 function Signin (){
+
+    const [isLoading, setIsLoading] = useState(false)
+
     const history = useNavigate()
     const [ user, setUser] = useState({
         email:"",
@@ -19,14 +22,21 @@ function Signin (){
         })
     }
     const signin = () =>{
+        setIsLoading(true)
         const {email, password } = user
         if(email && password){
             axios.post("https://try2-ikm9.onrender.com/signin", user)
             .then( res => {
                 window.myVariable = 1;
                 history("/")
+                setIsLoading(false)
+            })
+            .catch(err => {
+                setIsLoading(false)
+                console.log(err)
             })
         } else {
+            setIsLoading(false)
             alert("invlid input")
         }
     }
@@ -56,7 +66,13 @@ function Signin (){
                             value={user.password} onChange={ handleChange }
                         />
                     </div>
-                    <button className = "registerButton"type="submit" onClick={signin}>Sign In</button>
+                    <button className = "registerButton"type="submit" onClick={signin}>
+                        {
+                            isLoading ? <div>
+                                ...
+                            </div> : 'Sign In'
+                        }
+                    </button>
                     <div className="button" onClick={() => history("/signup")}></div>
                 </div>
             </div>
