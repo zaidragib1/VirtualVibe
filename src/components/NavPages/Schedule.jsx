@@ -12,6 +12,8 @@ function Schedule (){
                     <form action="">
                         <label htmlFor="email">Email</label>
                         <input type="email" name="" id="" />
+                        <label htmlFor="email">Subject</label>
+                        <input type="text" name="" id="" />
                     </form>
                 </div>
                 <div className="clockSet">
