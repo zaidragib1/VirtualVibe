@@ -67,6 +67,11 @@ function Home (){
                     <div className="innerLine"></div>
                 </div>
                 <div className="features">
+                    <div className="layer0">
+                        <div className="king">
+                            <h1>FEATURES!</h1>
+                        </div>
+                    </div>
                     <div className="layer1">
                         <div className="one">
                             <img src={screenSharing} className='screenSharing' id='nacho' />

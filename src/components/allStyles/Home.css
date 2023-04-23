@@ -142,6 +142,15 @@
     cursor: pointer;
 }
 
+.one, .two, .three{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width : 20em;
+    height : 20em;
+    cursor: pointer;
+}
+
 .voiceStreaming, .videoStreaming, .screenSharing, .chat, .recording, .whiteboard {
     transform: translate(-9px, -15px);
 }
@@ -160,6 +169,11 @@
 .layer1, .layer2{
     display: flex;
     justify-content: space-around;
+}
+
+.layer0{
+    margin-top : 4rem;
+    margin-bottom : 3rem;
 }
 
 .layer1{
