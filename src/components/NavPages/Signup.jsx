@@ -46,13 +46,13 @@ const Signup = ({ setLoginUser}) => {
             </div>
             <div className='formContainer'>
                 <div  className="registerForm">
-                    <div className='one'>
+                    <div className='one1'>
                         <label className='entryLabel' htmlFor="email">Email</label>
                         <input type="email" name="email" placeholder="yourEmail@email.com" id="email"
                             value={user.email} onChange={handleChange}
                         />
                     </div>
-                    <div className='one'>
+                    <div className='one1'>
                         <label htmlFor="password">Password</label>
                         <input type="password" name="password" placeholder="********" id="password" 
                             value={user.password} onChange={handleChange}

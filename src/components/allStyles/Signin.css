@@ -62,6 +62,7 @@ input{
     margin : 0.5rem 0rem;
     padding: 1rem;
     border-radius: 10px;
+    border : solid black;
 }
 
 .registerButton{
@@ -74,16 +75,16 @@ input{
     cursor: pointer;
 }
 .registerButton:hover {
-    background-color: #585b78;
+    /* background-color: #585b78; */
     color: white;
 }
 .registerButton:active {
-    background-color: #60636a;
+    /* background-color: #60636a; */
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
  
-.one{
+.one1{
     display: flex;
     flex-direction: column;
 } 

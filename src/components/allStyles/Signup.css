@@ -73,11 +73,11 @@ input{
     cursor: pointer;
 }
 .registerButton:hover {
-    background-color: #585b78;
+    /* background-color: #585b78; */
     color: white;
 }
 .registerButton:active {
-    background-color: #60636a;
+    /* background-color: #60636a; */
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }

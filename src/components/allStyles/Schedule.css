@@ -7,14 +7,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+    border: solid black;
 }
 
-/* .innerSchedular{
-    height: 40rem;
-    width: 80rem;
-    border-radius: 1%;
-    border: solid black;
-} */
 .clockSet {
     display: flex;
     flex-direction: row;
