@@ -52,3 +52,14 @@
         width: 90%;
     }
 }
+
+.changeColor, .contactInput, .contactText, .formButton{
+  margin-right: 20px;
+  background: linear-gradient(to right, red, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.formButton:hover{
+    
+}

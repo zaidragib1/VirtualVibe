@@ -22,7 +22,7 @@ function Contact (){
         <div>
             <Navbar />
             <div className="contactFormContainer">
-                <h1>Send a message to us!</h1>
+                <h1 className="changeColor">Send a message to us!</h1>
                 <form ref={form} action="" className="contactForm" onSubmit={sendEmail}>
                     <input className="contactInput " name="user_name" placeholder="Name" type="text"/>
                     <input className="contactInput " name="user_email" type="Email" placeholder="yourEmail@email.com" />
