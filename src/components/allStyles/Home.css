@@ -203,7 +203,7 @@
 .typing-animation {
     overflow: hidden; /* hide the text before it's typed */
     display: inline-block; /* make the container size to its content */
-    animation: typing 3s steps(10, end); /* apply the animation */
+    animation: typing 2s steps(3, end); /* apply the animation */
     background: transparent;
     border: 0;
     color: white;
