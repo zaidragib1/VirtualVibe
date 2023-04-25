@@ -19,6 +19,27 @@
   border: solid black;
   margin: 2rem;
   border-radius: 2rem;
+  min-width: 500px;
+}
+
+.details label, .details input{
+  margin-right: 20px;
+  font-size: 20px;
+  background: linear-gradient(to right, red, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.details input[type="submit"]{
+  margin:  10px 15px;
+  font-size: 20px;
+  margin-bottom: 2rem;
+  border: 2px solid gray;
+}
+
+.details input[type="text"], .details input[type="email"]{
+  border: 2px solid gray;
 }
 
 .clockSet {
@@ -42,7 +63,8 @@
   }
 
   .calander{
-    width : 20em;
+    width : 30em;
+
   }
 
   .top1, .top2{

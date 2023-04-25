@@ -14,9 +14,19 @@ import whiteboard from "../whiteboard.png";
 
 function Home (){
 
+    function generateRandomString() {
+        const chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        let result = '';
+        for (let i = 0; i < 6; i++) {
+          result += chars[Math.floor(Math.random() * chars.length)];
+        }
+        return result;
+      }
+      
+
     const navigate = useNavigate();
 
-    const [text, setCode] = useState("");
+    const [text, setCode] = useState(generateRandomString());
 
     const submitCodeForm = (e) =>{
         e.preventDefault();
@@ -56,9 +66,11 @@ function Home (){
                     </div>
                     <div className="joinMain">
                         <form action="" className="joinMainForm" onSubmit={submitCodeForm}>
-                            <input className="joinCode" type="text" placeholder="Enter Key" name="text" id="text" 
+                            
+                            <div className="joinCode"><input className=" typing-animation" type="text" placeholder="Enter Key" name="text" id="text" 
                                 value={text} onChange = {(e) => setCode(e.target.value)}
-                            /> 
+                            /> </div>
+                            
                             <button className="joinButton" type="submit">JOIN MEET</button>
                         </form>
                     </div>

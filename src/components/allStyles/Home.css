@@ -73,9 +73,12 @@
     margin-bottom: 3rem;
 }
 
+
+
 .joinMainForm, .innerpagal{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .joinCode, .pagalmail {
@@ -196,3 +199,22 @@
 .textChange{
     color : #00000095;
 }
+
+.typing-animation {
+    overflow: hidden; /* hide the text before it's typed */
+    display: inline-block; /* make the container size to its content */
+    animation: typing 3s steps(10, end); /* apply the animation */
+    background: transparent;
+    border: 0;
+    color: white;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+
+  }
+  
+  @keyframes typing {
+    from { width: 0; } /* start with a width of 0 */
+    to { width: 100%; } /* end with a width of 100% */
+  }
