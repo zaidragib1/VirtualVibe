@@ -1,4 +1,41 @@
-# Getting Started with Create React App
+# VIRTUALVIBE
+
+Welcome to the *VirtualVibe* project! This platform enables users to conduct virtual meetings, webinars, and more.
+
+## Features
+
+- **Virtual Meetings & Webinars:** Host and join virtual meetings and webinars with ease.
+- **User Authentication & Authorization:** Secure access using JSON Web Tokens (JWT).
+- **Seamless Video Conferencing:** Integrated with Zegocloud API for high-quality video conferencing.
+- **Responsive User Interface:** Designed with a focus on user-friendliness, accessibility, and responsiveness.
+
+## Technologies Used
+
+- **Backend:** Node.js, Express.js
+- **Frontend:** ReactJS
+- **Database:** MongoDB
+- **Video Conferencing API:** Zegocloud API
+- **Authentication:** JWT (JSON Web Tokens)
+- **Real-Time Communication:** WebRTC
+
+## Usage
+
+### Sign Up / Log In
+
+1. Create a new account or log in to an existing one using the authentication system.
+
+### Host or Join a Meeting
+
+1. Navigate to the "Create Meeting" or "Join Meeting" page.
+2. Provide the necessary details and start your virtual meeting or webinar.
+
+### Explore Features
+
+1. Utilize the responsive interface to manage your meetings, chat, and share screens during sessions.
+
+## Installation
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
